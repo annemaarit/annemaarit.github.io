@@ -1,1 +1,171 @@
-<h1> Hello World </h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--font-awasome: https://fontawesome.com/ -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- oma CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Maarit Parkkonen</title>
+  </head>
+
+  <body class="reuna">
+    <!--topnav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Minä<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./html/kuvat.html">Kuvat&AV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./html/tekstit.html">Tekstit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/annemaarit" target="_blank">Koodit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pdf/cv_ParkkonenM.pdf" target="_blank">CV</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal" id="yhteystiedot" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-white bg-secondary">
+            <h5 class="modal-title" id="exampleModalLabel">Maarit Parkkonen</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <i class="far fa-paper-plane kuvake"></i> maarit.parkkonen@outlook.com
+            </p>
+            <p>
+              <i class="fa fa-mobile-alt kuvake"></i> +358 44 257 6112
+            </p>
+            <p>
+              <i class="fa fa-home kuvake"></i> Kouvola
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Sulje</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-2">      
+      <div class="tausta mtop">
+
+        <div class="row laatikko">
+            <div class="col-12 col-lg-4">
+              <img class="omakuva center" src="./images/mie2.jpg">
+              <p class="text-center">
+                <a href="pdf/cv_ParkkonenM.pdf" class="btn btn-primary nappi2" target="_blank">CV</a>
+                <a href="#" class="btn btn-primary nappi2" data-toggle="modal" data-target="#yhteystiedot">Yhteystiedot</a>
+              </p>
+            </div>
+            <div class="col-12 col-lg-8">
+              <h1 class="display-4">Maarit Parkkonen</h1>
+              <p>Olen analyyttinen ja nopea oppimaan uusien teknologioiden haasteita. Pidän tiimityöskentelystä ja sitoudun vahvasti 
+                omaan porukkaani.
+              </p>
+              <p class="lead">
+                Olen opiskellut laaja-alaisesti ohjelmoinnin perusteita verkko- ja mobiilisovellusten osalta. Erityisesti olen innostunut palvelin- ja 
+                tietokantaohjelmoinnista mutta myös selainpuoli kiinnostaa. Tarvittaessa pystyn sisällöntuotantoon. Ohjelmistotuotannon
+                lisäksi minulla on koulutusta metsätaloudesta ja kokemusta hoiva-alalta.
+                
+              </p>
+              
+              <p class="lead">Tavoitteeni on kehittyä sovelluskehityksen ammattilaiseksi.</p>
+
+              <p>Ole hyvä ja tutustu osaamiseeni!</p>
+            </div>
+        </div> <!--laatikko-->
+      </div> <!-- tausta -->
+
+      <div class="tausta2">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card mb-4">
+              <h5 class="card-header text-white bg-secondary">Koodit</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Verkkosovelluksia, palvelinohjelmointia, tietorakenteita ja algoritmeja, sovellusarkkitehtuureja, käyttöliittymiä, verkkosivuja,
+                  peliohjelmointia. 
+                  <hr>
+                  Java, C#, C++, Python, Javascript, PHP, HTML, CSS, SQL, Typescript,
+                  React, jQuery, NodeJS, Express, REST, JSON, Ajax, MySQL, MVC,
+                  Ionic, Angular, .NET, Django, Unity, Postman
+                  </p>
+                <a href="https://github.com/annemaarit" target="_blank" class="btn btn-primary nappi center">Tutustu GitHub repooni</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card mb-4">
+              <h5 class="card-header text-white bg-secondary">Kuvat ja AV-tuotanto</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Kuvankäsittelyä, vektorigrafiikkaa, graafista suunnittelua, taittoa, 3D-mallintamista, suorastriimausta, videokuvausta.
+                  <hr>
+                  Photoshop, Illustrator, InDesign, Premiere, After Effects, Audition, SketchUp, 3ds Max.
+                  </p>
+                <a href="./html/kuvat.html" class="btn btn-primary nappi center">Katso esimerkkejä</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card mb-4">
+              <h5 class="card-header text-white bg-secondary">Tekstit</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Tutkielmia, oppimisprojekteja, oppimispäiväkirjoja, oppimistehtäviä,
+                  esseitä, katsauksia, asiakirjoja, proosaa.
+                  </p>
+                  <hr>
+                <a href="./html/tekstit.html" class="btn btn-primary nappi center">Lue otteita</a>
+              </div>
+            </div>
+            <img class="center" style="max-width: 100px;" src="./images/olio.jpg">
+            <p class="font-weight-light text-center" style="font-size: small;" >O.L.I.O</p>
+          </div>
+        </div> <!--row-->
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-text center">
+          @Maarit Parkkonen, 2020
+        </span>
+      </nav>
+
+    </div> <!-- container -->
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+
+</html>
